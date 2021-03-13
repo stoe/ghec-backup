@@ -9,6 +9,8 @@ updates:
       timezone: 'Europe/Berlin'
     commit-message:
       prefix: 'action'
+    labels:
+      - 'github-action :robot:'
 
   - package-ecosystem: 'gomod'
     directory: '/'
