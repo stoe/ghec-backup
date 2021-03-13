@@ -15,10 +15,7 @@ updates:
   - package-ecosystem: 'gomod'
     directory: '/'
     schedule:
-      interval: 'weekly'
-      day: 'saturday'
-      time: '09:00'
-      timezone: 'Europe/Berlin'
+      interval: 'monthly'
     commit-message:
       prefix: 'go'
       include: 'scope'
